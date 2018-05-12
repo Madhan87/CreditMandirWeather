@@ -54,6 +54,7 @@ public class HomeScreenActivity extends AppCompatActivity implements iWeatherCal
                             dialog.cancel();
                         }
                     });
+                    builder.show();
                 }
             });
         }
